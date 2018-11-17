@@ -1,11 +1,13 @@
 <view id="fishBody">
   <view class="aquarium">
     <view class="fishGroup">
-      <view class="fish_wrap left_right_2">
-        <view class="x">
-          <view class="y">
-            <view class="fish_box">
-              <view class="fish_1"></view>
+      <view wx:for="{{fishArray}}"  data-item="item" wx:key="{{fish}}"> 
+        <view class="{{item.positionClass}}">
+          <view class="x">
+            <view class="y">
+              <view class="fish_box" id="{{item.id}}" catchtap='tapFish'>
+                <view class="{{item.fishClass}}" ></view>
+              </view>
             </view>
           </view>
         </view>
