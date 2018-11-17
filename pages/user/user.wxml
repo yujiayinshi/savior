@@ -10,4 +10,7 @@
       积分：{{points}}
     </view>
   </view>
+  <view class=''>
+
+  </view>
 </view>
