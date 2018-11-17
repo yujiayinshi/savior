@@ -1,34 +1,186 @@
 <!--index.wxml-->
-<div id="fishBody">
-    <div class="aquarium">
-        <div class="fishGroup">
-            <div class="fish_wrap left_right_2"><div class="x"><div class="y"><div class="fish_box"><div class="fish_1"></div></div></div></div></div>
-            <div class="fish_wrap left_right_2"><div class="x"><div class="y"><div class="fish_box"><div class="fish_1"></div></div></div></div></div>
-            <div class="fish_wrap left_right_2"><div class="x"><div class="y"><div class="fish_box"><div class="fish_1"></div></div></div></div></div>
-            <div class="fish_wrap left_right_2"><div class="x"><div class="y"><div class="fish_box"><div class="fish_1"></div></div></div></div></div>
-        </div>
-        <div class="fishGroup">
-            <div class="fish_wrap right_left_4"><div class="x"><div class="y"><div class="fish_box"><div class="fish_2"></div></div></div></div></div>
-            <div class="fish_wrap right_left_4"><div class="x"><div class="y"><div class="fish_box"><div class="fish_2"></div></div></div></div></div>
-            <div class="fish_wrap right_left_4"><div class="x"><div class="y"><div class="fish_box"><div class="fish_2"></div></div></div></div></div>
-            <div class="fish_wrap right_left_4"><div class="x"><div class="y"><div class="fish_box"><div class="fish_2"></div></div></div></div></div>
-        </div>
-        <div class="fishGroup">
-            <div class="fish_wrap right_left_4"><div class="x"><div class="y"><div class="fish_box"><div class="fish_2"></div></div></div></div></div>
-            <div class="fish_wrap right_left_4"><div class="x"><div class="y"><div class="fish_box"><div class="fish_2"></div></div></div></div></div>
-            <div class="fish_wrap right_left_4"><div class="x"><div class="y"><div class="fish_box"><div class="fish_2"></div></div></div></div></div>
-            <div class="fish_wrap right_left_4"><div class="x"><div class="y"><div class="fish_box"><div class="fish_2"></div></div></div></div></div>
-        </div>
-        <div class="fishGroup">
-            <div class="fish_wrap left_right_3"><div class="x"><div class="y"><div class="fish_box"><div class="fish_6"></div></div></div></div></div>
-            <div class="fish_wrap left_right_3"><div class="x"><div class="y"><div class="fish_box"><div class="fish_6"></div></div></div></div></div>
-        </div>
-        <div class="fishGroup">
-            <div class="fish_wrap left_right_1"><div class="x"><div class="y"><div class="fish_box"><div class="fish_7"></div></div></div></div></div>
-            <div class="fish_wrap left_right_1"><div class="x"><div class="y"><div class="fish_box"><div class="fish_7"></div></div></div></div></div>
-        </div>
-        <div class="fish_wrap right_left_3"><div class="x"><div class="y"><div class="fish_box"><div class="fish_8"></div></div></div></div></div>
-        <div class="fish_wrap right_left_1"><div class="x"><div class="y"><div class="fish_box"><div class="fish_9"></div></div></div></div></div>
-        <div class="fish_wrap right_left_2"><div class="x"><div class="y"><div class="fish_box"><div class="fish_10"></div></div></div></div></div>
-    </div>
-</div>
+<view id="fishBody">
+  <view class="aquarium">
+    <view class="fishGroup">
+      <view class="fish_wrap left_right_2">
+        <view class="x">
+          <view class="y">
+            <view class="fish_box">
+              <view class="fish_1"></view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="fish_wrap left_right_2">
+        <view class="x">
+          <view class="y">
+            <view class="fish_box">
+              <view class="fish_1"></view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="fish_wrap left_right_2">
+        <view class="x">
+          <view class="y">
+            <view class="fish_box">
+              <view class="fish_1"></view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="fish_wrap left_right_2">
+        <view class="x">
+          <view class="y">
+            <view class="fish_box">
+              <view class="fish_1"></view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="fishGroup">
+      <view class="fish_wrap right_left_4">
+        <view class="x">
+          <view class="y">
+            <view class="fish_box">
+              <view class="fish_2"></view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="fish_wrap right_left_4">
+        <view class="x">
+          <view class="y">
+            <view class="fish_box">
+              <view class="fish_2"></view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="fish_wrap right_left_4">
+        <view class="x">
+          <view class="y">
+            <view class="fish_box">
+              <view class="fish_2"></view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="fish_wrap right_left_4">
+        <view class="x">
+          <view class="y">
+            <view class="fish_box">
+              <view class="fish_2"></view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="fishGroup">
+      <view class="fish_wrap right_left_4">
+        <view class="x">
+          <view class="y">
+            <view class="fish_box">
+              <view class="fish_2"></view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="fish_wrap right_left_4">
+        <view class="x">
+          <view class="y">
+            <view class="fish_box">
+              <view class="fish_2"></view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="fish_wrap right_left_4">
+        <view class="x">
+          <view class="y">
+            <view class="fish_box">
+              <view class="fish_2"></view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="fish_wrap right_left_4">
+        <view class="x">
+          <view class="y">
+            <view class="fish_box">
+              <view class="fish_2"></view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="fishGroup">
+      <view class="fish_wrap left_right_3">
+        <view class="x">
+          <view class="y">
+            <view class="fish_box">
+              <view class="fish_6"></view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="fish_wrap left_right_3">
+        <view class="x">
+          <view class="y">
+            <view class="fish_box">
+              <view class="fish_6"></view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="fishGroup">
+      <view class="fish_wrap left_right_1">
+        <view class="x">
+          <view class="y">
+            <view class="fish_box">
+              <view class="fish_7"></view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="fish_wrap left_right_1">
+        <view class="x">
+          <view class="y">
+            <view class="fish_box">
+              <view class="fish_7"></view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="fish_wrap right_left_3">
+      <view class="x">
+        <view class="y">
+          <view class="fish_box">
+            <view class="fish_8"></view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="fish_wrap right_left_1">
+      <view class="x">
+        <view class="y">
+          <view class="fish_box">
+            <view class="fish_9"></view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="fish_wrap right_left_2">
+      <view class="x">
+        <view class="y">
+          <view class="fish_box">
+            <view class="fish_10"></view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

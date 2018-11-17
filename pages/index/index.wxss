@@ -53,7 +53,7 @@ body, div {
     animation: left_right_1_x 70s linear infinite;
 }
 
-@-webkit-keyframes left_right_1_x {
+@keyframes left_right_1_x {
     0% {
         left: 0%;
     }
@@ -73,7 +73,7 @@ body, div {
     animation: left_right_1_y 1.5s ease infinite;
 }
 
-@-webkit-keyframes left_right_1_y {
+@keyframes left_right_1_y {
     0% {
         top: 15%;
     }
@@ -108,7 +108,7 @@ body, div {
     animation: left_right_2_x 25s linear infinite;
 }
 
-@-webkit-keyframes left_right_2_x {
+@keyframes left_right_2_x {
     0% {
         left: 0%;
     }
@@ -128,7 +128,7 @@ body, div {
     animation: left_right_2_y 25s ease-in-out infinite;
 }
 
-@-webkit-keyframes left_right_2_y {
+@keyframes left_right_2_y {
     0% {
         top: 25%;
         -webkit-transform: rotateZ(0deg);
@@ -177,7 +177,7 @@ body, div {
     animation: left_right_3_x 60s linear infinite;
 }
 
-@-webkit-keyframes left_right_3_x {
+@keyframes left_right_3_x {
     0% {
         left: 0%;
     }
@@ -197,7 +197,7 @@ body, div {
     animation: left_right_3_y 60s ease-in-out infinite;
 }
 
-@-webkit-keyframes left_right_3_y {
+@keyframes left_right_3_y {
     0% {
         top: 50%;
         -webkit-transform: rotateZ(0deg);
@@ -255,7 +255,7 @@ body, div {
     animation: right_left_1_x 25s linear infinite;
 }
 
-@-webkit-keyframes right_left_1_x {
+@keyframes right_left_1_x {
     0% {
         left: 0%;
     }
@@ -275,7 +275,7 @@ body, div {
     animation: right_left_1_y 25s ease-in-out infinite;
 }
 
-@-webkit-keyframes right_left_1_y {
+@keyframes right_left_1_y {
     0% {
         top: 75%;
     }
@@ -302,7 +302,7 @@ body, div {
     animation: right_left_2_x 30s linear infinite;
 }
 
-@-webkit-keyframes right_left_2_x {
+@keyframes right_left_2_x {
     0% {
         left: 0%;
     }
@@ -322,7 +322,7 @@ body, div {
     animation: right_left_2_y 30s ease-in-out infinite;
 }
 
-@-webkit-keyframes right_left_2_y {
+@keyframes right_left_2_y {
     0% {
         top: 100%;
         -webkit-transform: rotateZ(0deg);
@@ -372,7 +372,7 @@ body, div {
     animation: right_left_3_x 35s linear infinite;
 }
 
-@-webkit-keyframes right_left_3_x {
+@keyframes right_left_3_x {
     0% {
         left: 0%;
     }
@@ -392,7 +392,7 @@ body, div {
     animation: right_left_3_y 35s ease-in-out infinite;
 }
 
-@-webkit-keyframes right_left_3_y {
+@keyframes right_left_3_y {
     0% {
         top: 50%;
         -webkit-transform: rotateZ(0deg);
@@ -442,7 +442,7 @@ body, div {
     animation: right_left_4_x 50s linear infinite;
 }
 
-@-webkit-keyframes right_left_4_x {
+@keyframes right_left_4_x {
     0% {
         left: 0%;
     }
@@ -462,7 +462,7 @@ body, div {
     animation: right_left_4_y 50s ease-in-out infinite;
 }
 
-@-webkit-keyframes right_left_4_y {
+@keyframes right_left_4_y {
     0% {
         top: 50%;
         -webkit-transform: rotateZ(0deg);
@@ -502,7 +502,7 @@ body, div {
     animation: fish_1_play 0.5s steps(4) infinite;
 }
 
-@-webkit-keyframes fish_1_play {
+@keyframes fish_1_play {
     0% {
         background-position: 0 0
     }
@@ -519,7 +519,7 @@ body, div {
     animation: fish_2_play 0.5s steps(4) infinite;
 }
 
-@-webkit-keyframes fish_2_play {
+@keyframes fish_2_play {
     0% {
         background-position: 0 0
     }
@@ -536,7 +536,7 @@ body, div {
     animation: fish_6_play 1.5s steps(8) infinite;
 }
 
-@-webkit-keyframes fish_6_play {
+@keyframes fish_6_play {
     0% {
         background-position: 0 0
     }
@@ -553,7 +553,7 @@ body, div {
     animation: fish_7_play 1s steps(6) infinite;
 }
 
-@-webkit-keyframes fish_7_play {
+@keyframes fish_7_play {
     0% {
         background-position: 0 0
     }
@@ -570,7 +570,7 @@ body, div {
     animation: fish_8_play 1s steps(8) infinite;
 }
 
-@-webkit-keyframes fish_8_play {
+@keyframes fish_8_play {
     0% {
         background-position: 0 0
     }
@@ -587,7 +587,7 @@ body, div {
     animation: fish_9_play 1s steps(8) infinite;
 }
 
-@-webkit-keyframes fish_9_play {
+@keyframes fish_9_play {
     0% {
         background-position: 0 0
     }
@@ -604,7 +604,7 @@ body, div {
     animation: fish_10_play 1s steps(6) infinite;
 }
 
-@-webkit-keyframes fish_10_play {
+@keyframes fish_10_play {
     0% {
         background-position: 0 0
     }
