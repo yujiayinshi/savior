@@ -1,0 +1,40 @@
+<view>
+  <view class="fishGroup">
+    <view class="fish_wrap left_right_2">
+      <view class="x">
+        <view class="y">
+          <view class="fish_box">
+            <view class="fish_1"></view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="fish_wrap left_right_2">
+      <view class="x">
+        <view class="y">
+          <view class="fish_box">
+            <view class="fish_1"></view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="fish_wrap left_right_2">
+      <view class="x">
+        <view class="y">
+          <view class="fish_box">
+            <view class="fish_1"></view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="fish_wrap left_right_2">
+      <view class="x">
+        <view class="y">
+          <view class="fish_box">
+            <view class="fish_1"></view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

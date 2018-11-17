@@ -1,5 +1,19 @@
 <!--index.wxml-->
 <view id="fishBody">
+  <view class='title'>
+    <image mode='aspectFit' src='https://cloud-minapp-2654.cloud.ifanrusercontent.com/title.png'></image>
+  </view>
+  <view class='startButton'>
+    <navigator url="/pages/game/game" hover-class="navigator-hover">
+      <image mode='aspectFit' class='startButtonImg' src='https://cloud-minapp-2654.cloud.ifanrusercontent.com/start.png'></image>
+    </navigator>
+  </view>
+  <view class='user'>
+    <image mode='aspectFit' class='userImg' src='https://cloud-minapp-2654.cloud.ifanrusercontent.com/user.png'>
+    </image>
+  </view>
+  <button open-type="getUserInfo" lang="zh_CN"  style="border:none" bindgetuserinfo="onGotUserInfo" plain="true" class='userButton'>
+  </button>
   <view class="aquarium">
     <view class="fishGroup">
       <view class="fish_wrap left_right_2">

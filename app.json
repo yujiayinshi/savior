@@ -1,12 +1,15 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/game/game",
+    "pages/user/user",
+    "pages/store/store"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "Undersea Scavenger",
     "navigationBarTextStyle":"black"
   }
 }

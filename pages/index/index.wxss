@@ -613,8 +613,6 @@ body, div {
     }
 }
 
-/*fish.css*/
-@CHARSET "UTF-8";
 #fishBody {
     position: fixed;
     height: 100%;
@@ -622,8 +620,6 @@ body, div {
     overflow: hidden;
     margin: 0 auto;
     width:  100%;
-    padding-top: 30px;
-    padding-bottom: 80px;
     background: url(https://cloud-minapp-2654.cloud.ifanrusercontent.com/5bj.jpg) no-repeat center top;
     background-attachment: fixed;
     background-size:  cover;
@@ -851,4 +847,61 @@ body, div {
 #items .code-container .pt-touch:hover img {
     opacity: .8;
     transform: scale(.95);
+}
+
+.title {
+  height: 200rpx;
+  position: absolute;
+  z-index: 1;
+  top: 300rpx;
+  width: 100%;
+}
+
+.title image {
+  height: 100%;
+  width: 100%;
+}
+
+.startButton {
+  height: 300rpx;
+  position: absolute;
+  top: 500rpx;
+  z-index: 1;
+  width: 100%;
+}
+
+.startButton navigator {
+  height: 100%;
+  width: 100%;
+}
+
+.user {
+  height: 100rpx;
+  width: 100rpx;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  top: 100rpx;
+  margin: 20rpx;
+}
+
+.userButton {
+  height: 100rpx;
+  width: 100rpx;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  top: 100rpx;
+  margin: 20rpx;
+}
+
+.startButtonImg {
+  height: 100%;
+  width: 100%;
+}
+
+.userImg {
+  height: 60rpx;
+  width: 60rpx;
+  margin-right: 60rpx;
 }

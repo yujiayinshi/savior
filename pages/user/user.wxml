@@ -1,0 +1,13 @@
+<view>
+  <view class='avatarContainer'>
+    <view class="avatarView">
+      <image class="avatar" src="{{userInfo.avatarUrl}}"></image>
+    </view>
+    <view class="nickName">
+      {{userInfo.nickName}}
+    </view>
+    <view class="points">
+      积分：{{points}}
+    </view>
+  </view>
+</view>
