@@ -10,7 +10,19 @@
       积分：{{points}}
     </view>
   </view>
-  <view class=''>
-
+  <view class='storeContainer'>
+    <view class='exchangeTitle'>积分兑换</view>
+    <view wx:for="{{products}}" class='productList'>
+      <view class='product'>
+        <image src="{{item.img}}"></image>
+        <view class='productInfo'>
+         <text class='productName'>{{item.name}}</text>
+         <view class='productPrice'>
+            ¥{{item.price}}
+            <button class='exchangeButton'>兑换</button>
+         </view>
+        </view>
+      </view>
+    </view>
   </view>
 </view>

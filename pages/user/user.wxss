@@ -27,3 +27,43 @@
   color: #444;
   font-weight: bold;
 }
+
+.exchangeTitle {
+  font-size: 48rpx;
+  padding: 20rpx 0;
+  color: #444;
+  font-weight: bold;
+}
+
+.productList {
+  background: #eee;
+  margin-bottom: 50rpx;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+}
+
+.product image {
+  width: 100%;
+  height: 300rpx;
+}
+
+.productInfo {
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx;
+}
+
+.productName {
+  color: #444;
+}
+
+.productPrice {
+  color: #333
+}
+
+.exchangeButton {
+  background-color: bisque;
+}
