@@ -118,7 +118,8 @@ Page({
   onLoad: function() {
     this.setData({
       garbages: this.createGarbage(10),
-      fishes: this.createFish(10)
+      fishes: this.createFish(10),
+      points: app.globalData.points
     })
     var me = this
     setInterval(function() {
@@ -194,8 +195,10 @@ Page({
       })
       var me = this
       setTimeout(function() {
+        app.globalData.points += 5;
         me.setData({
-          showad: false
+          showad: false,
+          points: app.globalData.points
         })
       }, 5000)
     }
