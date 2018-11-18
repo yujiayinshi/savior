@@ -108,6 +108,11 @@ Page({
       'https://cloud-minapp-2654.cloud.ifanrusercontent.com/fish3.gif',
       'https://cloud-minapp-2654.cloud.ifanrusercontent.com/fish4.gif',
       'https://cloud-minapp-2654.cloud.ifanrusercontent.com/fish5.gif'
+    ],
+    postImgs: [
+      'https://cloud-minapp-2654.cloud.ifanrusercontent.com/post.png',
+      'https://cloud-minapp-2654.cloud.ifanrusercontent.com/post2.jpg',
+      'https://cloud-minapp-2654.cloud.ifanrusercontent.com/post3.jpeg',
     ]
   },
   onLoad: function() {
@@ -181,11 +186,11 @@ Page({
     return result
   },
   tapgarbage: function(event) {
-    console.log('event.currentTarget', event.currentTarget)
     const img = event.currentTarget.dataset.img
     if (img.indexOf('dangerous') > -1) {
       this.setData({
-        showad: true
+        showad: true,
+        post: this.data.postImgs[Math.floor(Math.random() * this.data.postImgs.length)]
       })
       var me = this
       setTimeout(function() {

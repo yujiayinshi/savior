@@ -1,19 +1,17 @@
 <view>
   <view wx:if="{{showad}}" class='adcontainer'>
-    <image mode='aspectFit'src='https://cloud-minapp-2654.cloud.ifanrusercontent.com/post.png'></image>
+    <image mode='aspectFit' src='{{post}}'></image>
   </view>
   <view wx:if="{{!showad}}">
     <view class='points'>积分：{{points || 0}}</view>
     <view id="fishBody">
       <view class="aquarium">
         <view class="fishGroup">
-          <view wx:for="{{fishArray}}" data-item="item" wx:key="{{item.id}}" data-id="{{item.id}}">
-            <view class="{{item.positionClass}}">
-              <view class="x">
-                <view class="y">
-                  <view class="fish_box" id="{{item.id}}">
-                    <view class="{{item.fishClass}}"></view>
-                  </view>
+          <view wx:for="{{fishArray}}" data-item="item" wx:key="{{index}}" class="{{item.positionClass}}">
+            <view class="x">
+              <view class="y">
+                <view class="fish_box">
+                  <view class="{{item.fishClass}}"></view>
                 </view>
               </view>
             </view>
