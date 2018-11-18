@@ -654,7 +654,6 @@ body, div {
 
 #items .item .title img {
     float: left;
-
 }
 
 #items .item .title h1 {

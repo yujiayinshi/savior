@@ -64,6 +64,10 @@
   color: #333
 }
 
+.productPrice button {
+ font-size: 14px;
+}
+
 .exchangeButton {
   background-color: bisque;
 }

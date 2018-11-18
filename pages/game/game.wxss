@@ -1,1 +1,53 @@
 @import '../index/index.wxss'
+
+.garbage {
+  position: absolute;
+  width: 100rpx;
+  height: 100rpx;
+  animation:spin 2s linear infinite;
+}
+
+.fishes {
+  position: absolute;
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.fishes image {
+  width: 100%;
+  height: 100%;
+}
+
+.garbage image {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes spin {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+.points {
+  position: fixed;
+  top: 10rpx;
+  right: 10rpx;
+  z-index: 1;
+  color: orange;
+}
+
+.adcontainer {
+  background: #fff;
+  width: 100vw;
+  height: 100vh;
+  z-index: 200;
+}
+
+.adcontainer image {
+  width: 100%;
+  height: 100%;
+}
